@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(135, 245, 245, 0.781);
+}
+#one{
+    padding: 20px;
+    position: absolute;
+    top: 20%;
+    z-index: 9;
+    /* display: initial; */
+    left: 10%;
+    cursor: pointer;
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+    /* transform: translate(0%); */
+}
+#two{
+    padding: 20px;
+    position: absolute;
+    top: 20%;
+    cursor: pointer;
+    left: 10%;
+    border: 2px solid black;
+    color: black;
+    background-color:red;
+    display: none;
+
+    /* transform: translate(100%); */
+
+}
